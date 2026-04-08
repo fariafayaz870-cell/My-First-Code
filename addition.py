@@ -48,6 +48,39 @@ print(radius,circumfrence)
 a=5
 b=5
 print(a==b)
+#name of a person
+name=input("what is your name?")
+print(name)
+#integers
+a=int(input("the first number is"))
+b=int(input("the second number is"))
+sum=a+b
+print("the sum is",sum)
+#equal to
+a=3
+b=5
+if(a==b):
+  print("a is equal to b")
+else:
+  print("a is not equal to b")
+#aprox value
+a=30
+b=40
+s=a//b
+print(s)
+#percentage
+a=9
+b=6
+r=a%b
+print(r)
+#remainder
+a=5
+power=a**3
+print(power)
+
+
+
+
 
 
 
