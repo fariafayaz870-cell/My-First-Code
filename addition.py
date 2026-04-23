@@ -77,7 +77,53 @@ print(r)
 a=5
 power=a**3
 print(power)
+matrix=[
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+print(matrix[1][1])
+# list
+number=[10,20,30,40,50]
+total_sum=sum(number)
+print(total_sum)
+avg=total_sum/len(number)
+print(avg)
+#number list
+number=[10,20,30,40,50]
+print(number)
+print(number[-1])
+print(number[1])
+print(number[-2])
+number.append(60)
+print("after append",number)
+number.extend([70,80,90])
+print("after extend",number)
+number.pop()
+print("after pop",number)
+number.pop(2)
+print("after pop",number)
+del number[0]
+print("after number[0]",number)
+number.clear()
+print("cleared list",number)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
 
 
 
