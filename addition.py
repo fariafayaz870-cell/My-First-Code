@@ -134,6 +134,15 @@ def  test2():
     print(sum)
 
 test2()
+#tuple & list
+tu=("a","b","c")
+print(type(tu))
+#tu.append("d")
+print(tu)
+tu_li=list(tu)
+print(type(tu_li))
+tu_li.append("d")
+print(tu_li)
 
 
 
