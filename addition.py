@@ -143,6 +143,60 @@ tu_li=list(tu)
 print(type(tu_li))
 tu_li.append("d")
 print(tu_li)
+# dictionary (key, values & items)
+dog = {
+  "colour":"brown",
+  "breed":"labrador",
+  "gender":"male"
+}
+for key, value in dog.items():
+  print(key,"=" , value)
+bag = {
+  "colour":"blue",
+  "brand":"puma"
+}
+for key, value in bag.items():
+  print(key,"=" , value)
+girls = {
+  "personality":"awesome",
+  "brain":"well developed",
+  "emotions": "regulated"  
+}
+key = "brain"
+print(key, "=" , girls [key])
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
 
 
 
