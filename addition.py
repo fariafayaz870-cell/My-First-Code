@@ -164,6 +164,25 @@ girls = {
 }
 key = "brain"
 print(key, "=" , girls [key])
+district = {
+  "location":"anatnag",
+  "area":"rural"
+}
+key = "location"
+print(key,"=", district [key])
+district["time"]="12pm"
+print(district)
+for key,value in district.items():
+  print(key,"=",value)
+  key="area"
+  print("for given key",key,"=",district[key])
+  district["area"]="urban"
+  print(district)
+  for key,value in district.items():
+    if value =="urban":
+      print(key,"=",value)
+      district.update({"location":"hazratbal","tehsil":"noth"})
+      print(district)
 
 
       
