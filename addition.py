@@ -183,6 +183,42 @@ for key,value in district.items():
       print(key,"=",value)
       district.update({"location":"hazratbal","tehsil":"noth"})
       print(district)
+     # frozenset (subset $supset), unions
+s={1,2,3,4,5}
+print(s)
+print(type(type(s)))
+s.add(5)
+print(s)
+s.remove(4)
+print(s)
+li=["a","b","c","d",]
+print(li)
+print(type(li))
+li_s=set(li)
+print(li_s)
+print("li_set",type(li_s))
+fs=frozenset(["f","r", "o"])
+print(type(fs))
+print(fs)
+
+print(fs)
+u=s.union(fs)
+print("union",u)
+print("union|",s|fs)
+print("sort",sorted(li_s))
+if fs<=u:
+   print("fs is subset")  
+if u>=fs:
+   print("u is supset")  
+print(u)
+a={11,12,13,14}
+b={10,20,30,40}
+print("a-",a-b)
+print("b-",b-a)
+
+
+      
+      
 
 
       
