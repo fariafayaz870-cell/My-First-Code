@@ -215,6 +215,14 @@ a={11,12,13,14}
 b={10,20,30,40}
 print("a-",a-b)
 print("b-",b-a)
+# make 2 diff files like python.py,dyd.py,firstfile.txt then write this code on dyd.py
+try:
+  f=open("LB/firstfilee.txt")
+except FileNotFoundError:
+  print("File found")
+finally:
+  print("program executed")
+  
 
 
       
