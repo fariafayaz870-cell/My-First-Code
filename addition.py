@@ -217,11 +217,17 @@ print("a-",a-b)
 print("b-",b-a)
 # make 2 diff files like python.py,dyd.py,firstfile.txt then write this code on dyd.py
 try:
-  f=open("LB/firstfilee.txt")
+  f=open("LB/firstfilee.txt") orhere u can add url by copying the url of file
 except FileNotFoundError:
   print("File found")
 finally:
   print("program executed")
+  f=open("123.txt" , "r")
+except FileNotFoundError:
+
+else:
+    print("file found")
+         
   
 
 
