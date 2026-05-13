@@ -227,6 +227,13 @@ except FileNotFoundError:
 
 else:
     print("file found")
+  class student:
+      name="faria"
+      age=20
+      course="dyd"
+obj=student()
+print(obj.name)
+  
          
   
 
