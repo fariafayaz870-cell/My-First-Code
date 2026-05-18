@@ -233,10 +233,31 @@ else:
       course="dyd"
 obj=student()
 print(obj.name)
-  
-         
-  
+class Dog:
+  voice = "bark"
+d= Dog()
+print(d.voice)
 
+class Dress:
+    color = "black"
+    brand = "H&M"
+    material = "cotton"
+obj=Dress()
+print(obj.brand)
+class phone:
+    brand= "apple"
+    color: "purple"
+obj=phone()
+print(obj.brand)
+
+class student:
+  def __init__(self,name,age):
+    self.name = name
+    self.age = age
+p1 = student ("zara",21)
+print(p1.name)
+print(p1.age)
+  
 
       
       
